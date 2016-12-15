@@ -15,28 +15,28 @@
 
 
  #xcodeproj文件的绝对路径[修改]
-WORKSPACE_PATH="/Users/HuiYan/Desktop/XM/HekrSDKAPP/"
-WORKSPACE_NAME="HekrSDKAPP"
-SCHEME="HekrSDKAPP"
+WORKSPACE_PATH="/Users/mac/Desktop/test"
+WORKSPACE_NAME="test"
+SCHEME="test"
 
 #生成的APP名称，根据xcode项目 plist来定
-APPNAME="HekrSDKAPP"
+APPNAME="test"
 
 #iPhone Distribution: FOO.
-IDENTITY="iPhone Distribution: Liting Su (6WDB9C7995)"
+IDENTITY="iPhone Distribution: xxxxx (xxxxxxx)"
 
 #Distribution Provision(hoc) File Path
-PROVISIONING_PROFILE="/Users/HuiYan/Library/MobileDevice/Provisioning Profiles/0961cbdd-6158-40ff-a07f-5d452dc821ba.mobileprovision"
+PROVISIONING_PROFILE="/Users/mac/Library/MobileDevice/Provisioning Profiles/0961cbdd-6158-40ff-a07f-5d452dc821ba.mobileprovision"
 
 #输出ipa文件的路径, 最好是绝对路径
-OUTDIR="/Users/HuiYan/Desktop/aaaa/"
+OUTDIR="/Users/mac/Desktop/testipa/"
 
 #FIR 秘钥
-FIRTOKEN="9627b35f4b868484aad68122081518f7"
+FIRTOKEN="9627b35f4b868484xxxxxxxxxxxxxx"
 #蒲公英aipKey
-PAPIKEY="1bff144a78d54387961145f3eb81ac32"
+PAPIKEY="1bff144a78d543879xxxxxxxxxxxxxxx"
 #蒲公英uKey
-PUKEY="7c000d185795582233acf8e993539ae9"
+PUKEY="7c000d18579558223xxxxxxxxxxxxxxxxx"
 
 
 if [ ! -f $PROVISIONING_PROFILE ]; then

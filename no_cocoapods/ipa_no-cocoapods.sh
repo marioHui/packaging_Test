@@ -8,7 +8,7 @@
 
 
  #xcodeproj文件的绝对路径
-PROJECT="/Users/HuiYan/Desktop/test/test/test.xcodeproj"
+PROJECT="/Users/mac/Desktop/test.xcodeproj"
 
 SCHEME="test"
 
@@ -16,21 +16,21 @@ SCHEME="test"
 APPNAME="test"
 
 #iPhone Distribution:
-IDENTITY="iPhone Distribution: Liting Su (6WDB9C7995)"  
+IDENTITY="iPhone Distribution: xxxxxxx (xxxxxxxx)"
 
 #Distribution Provision(hoc) File Path
-PROVISIONING_PROFILE="/Users/HuiYan/Library/MobileDevice/Provisioning Profiles/0961cbdd-6158-40ff-a07f-5d452dc821ba.mobileprovision"
+PROVISIONING_PROFILE="/Users/mac/Library/MobileDevice/Provisioning Profiles/0961cbdd-6158-40ff-a07f-5d452dc821ba.mobileprovision"
 
 #输出ipa文件的路径, 最好是绝对路径
-OUTDIR="/Users/HuiYan/Desktop/aaaa/"
+OUTDIR="/Users/mac/Desktop/testipa/"
 
 PRODUCTDIR=${OUTDIR}
 #FIR 秘钥
-FIRTOKEN="5558b26ae383df7390b880xxxxxxx"
+FIRTOKEN="9627b35f4b868484xxxxxxxxxxxxxx"
 #蒲公英aipKey
-PAPIKEY="1bff144a78d54387961145f3eb81ac32"
+PAPIKEY="1bff144a78d543879xxxxxxxxxxxxxxx"
 #蒲公英uKey
-PUKEY="7c000d185795582233acf8e993539ae9"
+PUKEY="7c000d18579558223xxxxxxxxxxxxxxxxx"
 
 if [ ! -f $PROVISIONING_PROFILE ]; then
     echo "Please download the provision file for "${PROVISIONING_PROFILE}
